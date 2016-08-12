@@ -30,8 +30,8 @@ Requirements
 
 For this script to run as-is, make sure you have
 
-*   `bash`
-*   `realpath`
+*   `bash` (runs the main script)
+*   `realpath` (allows the script to determine its installed directory so that it can run its helpers from any dir)
 *   `xsltproc` (applies XSLT transform to enlarge the initial SVG)
 *   `inkscape` (converts SVG to EPS)
 *   `pstoedit` (converts EPS to nominal PCB)
